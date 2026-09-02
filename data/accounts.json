@@ -1,0 +1,20 @@
+{
+  "accounts": [
+    {
+      "account_number": "10010001",
+      "name": "Roberto Mediana",
+      "pin": "1234",
+      "balance": 50000.0,
+      "status": "active",
+      "account_type": "Demo Savings"
+    },
+    {
+      "account_number": "10010002",
+      "name": "Demo Recipient",
+      "pin": "5678",
+      "balance": 25000.0,
+      "status": "active",
+      "account_type": "Demo Savings"
+    }
+  ]
+}

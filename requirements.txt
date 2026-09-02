@@ -1,0 +1,12 @@
+# ATMORA — Modern ATM Banking System
+# Required Python packages
+# Install with: pip install -r requirements.txt
+
+# Modern Tkinter UI framework
+customtkinter>=5.2.0
+
+# Image processing for logo generation
+Pillow>=10.0.0
+
+# Optional: Sound effects (app works without this)
+# pygame>=2.5.0

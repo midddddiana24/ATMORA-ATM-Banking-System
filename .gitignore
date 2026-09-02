@@ -1,0 +1,55 @@
+# ATMORA — .gitignore
+# =====================
+# Files and directories to exclude from version control
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.env
+
+# IDE files
+.vscode/
+.idea/
+*.suo
+*.user
+*.iml
+.project
+.settings/
+
+# System files
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+desktop.ini
+
+# Test and build artifacts
+.pytest_cache/
+.mypy_cache/
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# IMPORTANT: Never commit real credentials or financial data
+# data/accounts.json contains DEMO data only
+# Do NOT replace demo data with real account information
