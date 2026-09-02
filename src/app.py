@@ -399,8 +399,8 @@ class LoginScreen(BaseScreen):
         bg_label.place(relx=0.5, rely=0.15, anchor='center')
 
         # Main card
-        card = make_card(self)
-        card.place(relx=0.5, rely=0.5, anchor='center', width=380, height=480)
+        card = make_card(self, width=380, height=480)
+        card.place(relx=0.5, rely=0.5, anchor='center')
 
         # --- Card Content ---
         # Logo
