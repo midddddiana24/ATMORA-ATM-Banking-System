@@ -669,7 +669,7 @@ class DashboardScreen(BaseScreen):
         cred_btn = ctk.CTkButton(
             self.content, text='Developer Credits',
             command=lambda: (self.play('click'), self.navigate_to('credits')),
-            fg_color='transparent', hover_color='transparent',
+            fg_color='transparent', hover_color=C['bg_dark'],
             text_color=C['text_muted'],
             font=make_font('tiny'),
             height=24
